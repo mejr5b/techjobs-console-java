@@ -114,7 +114,7 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
 
         if(someJobs.size() == 0) {
-            System.out.println("Invalid search option");
+            System.out.println("No results found");
         }
         for (Map<String, String> job : someJobs) {
             for (String key : job.keySet()) {
